@@ -16,6 +16,14 @@ public class LoginControlller
 	    @RequestMapping("/hh")
 		public String hello()
 		{
-			return "Ready to Go...Yahoo";
+			return "Ready to Go...Bro";
 		}
+        
+        
+        @RequestMapping("/welcome1")
+        public String Welcome()
+        {
+        	return "welcomepage";
+        }
+        
 }
